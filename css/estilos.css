@@ -1,0 +1,59 @@
+html{ font-family: sans-serif; text-align: center}
+       
+body{ display: inline-block; text-align: left}
+      
+output{font-size: small }
+
+*:required, .obligatorio{
+        border:thin solid blue;
+}
+input[type=number], .numero{text-align: right;}
+dfn{font-weight: bold;}
+
+form em {
+        font-size:small ;
+}
+label, legend{ font-weight: bold;}
+
+br + output, fieldset + output, footer, form em{ font-size: small;}
+
+.marco{
+        border: 2px solid rgb(0, 255, 255);
+        align-content: center;
+}
+
+output{
+        display: block;
+}
+
+.boton{
+        background-color: rgb(68, 0, 255);
+        border: 3px outset #ffff;
+}
+.boton:hover{
+        transform: scale(1.2);
+        transition: all .25s;
+        background-color: rgb(0, 47, 85);
+        border: 3px outset #ffff;
+        background-color: deepskyblue;
+        border: 3px inset plum;
+        color: black;
+}
+.boton2{
+        background-color: crimson;
+        border: 3px outset #ffff;
+}
+.boton2:hover{
+        transform: scale(1.2);
+        transition: all .25s;
+        background-color: crimson;
+        border: 3px outset #ffff;
+        background-color: deepskyblue;
+        border: 3px inset plum;
+        color: black;
+}
+
+form input{
+   text-align: left;
+
+}
